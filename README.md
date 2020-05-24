@@ -48,11 +48,15 @@ Model: "sequential"
 |dense_2 (Dense)   |           (None, 1)       |          221      | 
 
 Total params: 487,305
+
 Trainable params: 487,305
+
 Non-trainable params: 0
 
 Test Result:
+
 8575/8575 - 1s - loss: 76.0066 - accuracy: 0.7931
+
 Loss: 76.00658843941314, Accuracy: 0.7931195497512817
 
 I used two hidden layers in this DeepLearning model. The first hidden layer have 441 neurons that equals a half number of input parameters and the second hidden layer is 220 that equals a quarter of input parameters. I used one layers at first and the number neurons equals to input parameters, the accuracy did not return good. Then I added the second layer the same first layers. The accuracy was improved, but the performance very bad. Finally, I tuned up and adjusted by calibrating the number neurons. The number 441 neurons in first layer and 220 neurons in second layer are the best result in both the accuracy and the performance.
